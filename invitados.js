@@ -64,5 +64,7 @@ const INVITADOS = [
   "David Vasquez Hurtado",
   "Alex Vasquez Hurtado",
   "Alyssa",
+  "Zixgner",
+  "Benjamin Wong",
 ];
 
