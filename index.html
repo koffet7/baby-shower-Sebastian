@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="assets/img/icons/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#758a68">
+  <meta name="description" content="Invitación al Baby Shower de Sebastián Luciel">
+  <title>Baby Shower | Sebastián Luciel</title>
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="loader" class="loader">
+    <div class="loader-icon">🍯</div>
+    <strong>Preparando una dulce sorpresa…</strong>
+    <span>para Sebastián Luciel</span>
+  </div>
+
+  <main>
+    <!-- PÁGINA 1 -->
+    <section id="portada" class="screen active video-screen premium-page">
+      <div class="premium-ambient" aria-hidden="true">
+        <span class="light-ray ray-a"></span>
+        <span class="light-ray ray-b"></span>
+        <span class="firefly pf1"></span><span class="firefly pf2"></span>
+        <span class="firefly pf3"></span><span class="firefly pf4"></span>
+        <span class="firefly pf5"></span><span class="firefly pf6"></span>
+        <span class="falling-leaf leaf-a">🍂</span>
+        <span class="falling-leaf leaf-b">🍃</span>
+        <span class="falling-leaf leaf-c">🍂</span>
+        <span class="falling-leaf leaf-d">🍃</span>
+      </div>
+
+      <video class="background-video" autoplay muted loop playsinline>
+        <source src="assets/video/fondo.mp4" type="video/mp4">
+      </video>
+      <div class="video-shade"></div>
+
+      <img class="page1-character page1-tigger" src="assets/img/pagina1_tigger.png" alt="">
+      <img class="page1-character page1-piglet" src="assets/img/pagina1_piglet.png" alt="">
+      <img class="floating-bee bee-one" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee bee-two" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee bee-four" src="assets/img/abeja.png" alt="">
+
+      <article class="panel cover-panel premium-card">
+        <img class="page1-main" src="assets/img/pagina1_pooh_globos.png" alt="Osito con globos">
+        <p class="eyebrow">BABY SHOWER</p>
+        <h1 data-evento="nombreCorto">Sebastián Luciel</h1>
+        <p class="script-subtitle">Una pequeña aventura está por comenzar</p>
+        <button id="openAccess" class="button button-gold">🍯 Descubre tu invitación</button>
+
+        <div class="divider"></div>
+
+        <p class="parents">
+          Con cariño de<br>
+          <strong data-padre="0"></strong><br>
+          <strong data-padre="1"></strong>
+        </p>
+      </article>
+    </section>
+
+    <!-- PÁGINA 2 -->
+    <section id="acceso" class="screen video-screen premium-page">
+      <div class="premium-ambient" aria-hidden="true">
+        <span class="light-ray ray-a"></span>
+        <span class="light-ray ray-b"></span>
+        <span class="firefly pf1"></span><span class="firefly pf2"></span>
+        <span class="firefly pf3"></span><span class="firefly pf4"></span>
+        <span class="firefly pf5"></span><span class="firefly pf6"></span>
+        <span class="falling-leaf leaf-a">🍂</span>
+        <span class="falling-leaf leaf-b">🍃</span>
+        <span class="falling-leaf leaf-c">🍂</span>
+        <span class="falling-leaf leaf-d">🍃</span>
+      </div>
+
+      <video class="background-video" autoplay muted loop playsinline>
+        <source src="assets/video/fondo.mp4" type="video/mp4">
+      </video>
+      <div class="video-shade"></div>
+
+      <img class="floating-bee bee-three" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee bee-five" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee bee-six" src="assets/img/abeja.png" alt="">
+
+      <article class="panel access-panel premium-card">
+        <img class="page2-main" src="assets/img/pagina2_pooh_miel.png" alt="Osito con tarro de miel">
+        <div class="honey-icons">🐝 <span>🍯</span> 🐝</div>
+
+        <p class="eyebrow">INVITACIÓN PERSONALIZADA</p>
+        <h2>¿Cómo te llamas?</h2>
+        <p class="instruction">Puedes escribir solo tu primer nombre o tu nombre completo.</p>
+
+        <form id="guestForm" autocomplete="off">
+          <input id="guestName" type="text" placeholder="Ejemplo: Leonardo" maxlength="80">
+          <button class="button button-gold" type="submit">Abrir invitación</button>
+        </form>
+
+        <p id="accessMessage" class="message" aria-live="polite"></p>
+      </article>
+    </section>
+
+    <!-- PÁGINA 3 -->
+    <section id="invitacion" class="screen video-screen invitation-page premium-page">
+      <div class="premium-ambient" aria-hidden="true">
+        <span class="light-ray ray-a"></span>
+        <span class="light-ray ray-b"></span>
+        <span class="firefly pf1"></span><span class="firefly pf2"></span>
+        <span class="firefly pf3"></span><span class="firefly pf4"></span>
+        <span class="firefly pf5"></span><span class="firefly pf6"></span>
+        <span class="falling-leaf leaf-a">🍂</span>
+        <span class="falling-leaf leaf-b">🍃</span>
+        <span class="falling-leaf leaf-c">🍂</span>
+        <span class="falling-leaf leaf-d">🍃</span>
+      </div>
+
+      <video class="background-video" autoplay muted loop playsinline>
+        <source src="assets/video/fondo.mp4" type="video/mp4">
+      </video>
+      <div class="video-shade"></div>
+
+      <img class="floating-bee invite-bee-one" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee invite-bee-two" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee invite-bee-three" src="assets/img/abeja.png" alt="">
+      <img class="floating-bee invite-bee-four" src="assets/img/abeja.png" alt="">
+
+      <article class="invitation-panel premium-card">
+        <img class="page3-header" src="assets/img/pagina3_cuento.png" alt="Escena de cuento">
+
+        <p class="eyebrow">BIENVENIDO(A)</p>
+        <h2 id="welcomeName"></h2>
+        <p class="lead" data-evento="mensaje"></p>
+
+        <div class="divider"></div>
+
+        <p class="smallcaps">Celebremos la próxima llegada de</p>
+        <h1 data-evento="bebe">Sebastián Luciel Martinez Tarazona</h1>
+
+        <div class="event-grid">
+          <div class="event-card">
+            <span>📅</span>
+            <strong data-evento="fechaTexto"></strong>
+            <small>Fecha</small>
+          </div>
+          <div class="event-card">
+            <span>🕔</span>
+            <strong data-evento="horaTexto"></strong>
+            <small>Hora</small>
+          </div>
+          <div class="event-card">
+            <span>📍</span>
+            <strong data-evento="direccion"></strong>
+            <small>Lugar</small>
+          </div>
+        </div>
+
+        <section class="countdown-section">
+          <p class="eyebrow">FALTAN</p>
+          <div class="countdown">
+            <div><b id="days">00</b><span>Días</span></div>
+            <div><b id="hours">00</b><span>Horas</span></div>
+            <div><b id="minutes">00</b><span>Min</span></div>
+            <div><b id="seconds">00</b><span>Seg</span></div>
+          </div>
+        </section>
+
+        <div class="actions">
+          <a id="mapsButton" class="button button-green" target="_blank" rel="noopener">📍 Cómo llegar</a>
+          <a id="whatsappButton" class="button button-gold" target="_blank" rel="noopener">💬 Confirmar asistencia</a>
+        </div>
+
+        <button id="giftButton" class="gift-button">🎁 Ver sugerencias de regalitos</button>
+
+        <div class="closing">
+          <p>
+            Con mucho amor,<br>
+            <strong data-padre="0"></strong><br>
+            <strong data-padre="1"></strong>
+          </p>
+          <img class="page3-bottom" src="assets/img/pagina3_amigos.png" alt="Pooh y sus amigos">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- APARTADO DE REGALITOS -->
+  <div id="giftModal" class="modal" aria-hidden="true">
+    <article class="gift-panel">
+      <button id="closeGiftModal" class="modal-close" aria-label="Cerrar">×</button>
+
+      <img class="gift-image" src="assets/img/regalitos_pooh.png" alt="Pooh con regalo">
+      <div class="honey-icons">🐝 <span>🍯</span> 🐝</div>
+
+      <p class="eyebrow">SUGERENCIAS</p>
+      <h2>Regalitos para Sebastián</h2>
+      <p>Tu presencia es nuestro mejor regalo. Si deseas llevar un detalle, estas ideas pueden ayudarte:</p>
+
+      <div id="giftList" class="gift-grid"></div>
+    </article>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="invitados.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
