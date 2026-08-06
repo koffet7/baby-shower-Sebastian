@@ -62,6 +62,7 @@ const INVITADOS = [
   "Angie Vasquez Alfaro",
   "Jassir Vasquez Alfaro",
   "David Vasquez Hurtado",
-  "Alex Vasquez Hurtado"
+  "Alex Vasquez Hurtado",
+  "Jahayra",
 ];
 
