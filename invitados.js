@@ -55,7 +55,7 @@ const INVITADOS = [
   "Elvira Tarazona Ñaupari",
   "Norma Aquino Ñaupari",
   "Yajaira Chacon",
-  "Yahaira amiga",
+  "Jahayra amiga",
   "Alissa amiga",
   "Jovana",
   "Jessica Vasquez Alfaro",
