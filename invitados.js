@@ -73,5 +73,6 @@ const INVITADOS = [
   "Carlos",
   "daniela",
   "jazmin",
+  "Alexandra",
 ];
 
