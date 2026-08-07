@@ -70,6 +70,6 @@ const INVITADOS = [
   "jeffry",
   "Mathew",
   "Henry",
-  "wicho",
+  "Carlos",
 ];
 
