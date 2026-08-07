@@ -2,7 +2,7 @@ const INVITADOS = [
   "Leonardo",
   "Davis",
   "steve",
-  "Nicol",
+  "Nicole",
   "Lucho",
   "Daniel",
   "Piero Alonso",
