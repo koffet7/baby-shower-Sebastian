@@ -69,5 +69,7 @@ const INVITADOS = [
   "Ana Kassandra",
   "jeffry",
   "Mathew",
+  "Henry",
+  "wicho",
 ];
 
