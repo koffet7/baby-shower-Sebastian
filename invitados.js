@@ -71,5 +71,6 @@ const INVITADOS = [
   "Mathew",
   "Henry",
   "Carlos",
+  "daniela",
 ];
 
